@@ -1,4 +1,4 @@
-# Project guide for Claude Code
+# Project guide
 
 Grey-box model of locomotion: a half-centre central pattern generator (CPG)
 combined with a machine-learning component, fitted to real movement data.
@@ -36,8 +36,8 @@ Rules:
 
 ## Commits and privacy (public repo)
 
-- Do NOT add `Co-Authored-By`, "Generated with Claude Code", or any AI
-  attribution lines to commits, PRs or files. Commits are authored by the
+- Do NOT add `Co-Authored-By` trailers or any tool/assistant attribution
+  lines to commits, PRs or files. Commits are authored by the
   repo owner only.
 - Never commit personal information (names, emails, addresses, student IDs,
   local file paths containing a username), credentials, API keys or `.env` files.
