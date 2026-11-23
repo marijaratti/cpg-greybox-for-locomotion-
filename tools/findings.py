@@ -4,7 +4,7 @@ findings.py - a tiny, git-native API for recording research findings.
 
 Why this exists
 ---------------
-Claude Code (or you) runs experiments in this repo. Every time something is
+Experiments run in this repo. Every time something is
 learned - a result, a negative result, a bug, a decision - it gets written down
 as ONE Markdown file in `findings/`, with a machine-readable header. Git is the
 transport: commit + push and the finding is on GitHub, with a timestamp and the
@@ -14,7 +14,7 @@ No server, no database, no extra dependencies (standard library only).
 
 Two ways to use it
 ------------------
-1. Command line (what Claude Code calls):
+1. Command line:
 
     python tools/findings.py add \
         --title "Removing reciprocal inhibition abolishes alternation" \
